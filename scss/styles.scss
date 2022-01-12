@@ -1,0 +1,27 @@
+body {
+   font-size: 14px;
+}
+
+html {
+   font-size: 14px;
+}
+
+.hello{
+   &__title {
+      font-size: 24px;
+      font-family: sans-serif;
+   }
+   &__text {
+      font-family: sans-serif;
+   }
+}
+
+.image-container {
+   width: 90%;
+   margin: 0 auto;
+
+   img {
+      width: 100%;
+      height: auto;
+   }
+}
